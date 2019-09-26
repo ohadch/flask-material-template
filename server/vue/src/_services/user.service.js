@@ -11,14 +11,7 @@ function signup(username, password) {
         body: JSON.stringify({ username, password })
     };
 
-    return fetch(`/registration`, requestOptions).then(handleResponse).then(
-        ({message, error}) => {
-            if (error)
-                throw error;
-            
-            return message;
-        }
-    )
+    return fetch(`/registration`, requestOptions).then(handleResponse)
 }
 
 function login(username, password) {

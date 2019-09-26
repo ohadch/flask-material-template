@@ -25,15 +25,15 @@ export const authentication = {
       );
     },
     signup({ dispatch }, { username, password }) {
-      userService.signup(username, password).then(
-        message => {
-          router.push("/");
-          dispatch("alert/success", message, { root: true });
-        },
-        error => {
+      userService.signup(username, password).then(({ message, error }) => {
+        if (error) {
           dispatch("alert/error", error, { root: true });
+          return;
         }
-      );
+
+        alert(message);
+        router.push("/");
+      });
     },
     logout({ commit }) {
       userService.logout();
