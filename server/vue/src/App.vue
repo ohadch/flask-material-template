@@ -2,7 +2,7 @@
   <v-app>
     <v-app-bar app>
       <v-toolbar-title class="headline text-uppercase">
-        <span class="font-weight-light">Iris Classifier - By Ohad Chaet</span>
+        <span class="font-weight-light">My Website Template</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn

@@ -1,16 +1,18 @@
 <template>
-  <v-layout text-center align-center justify-center mt-2>
+  <v-layout text-center align-center justify-center mt-3>
     <v-flex xs12 sm6 md6>
-      <ImageUpload />
+      <HelloWorld />
     </v-flex>
   </v-layout>
 </template>
 
 <script>
-import ImageUpload from "@/components/ImageUpload";
+import HelloWorld from "@/components/HelloWorld"
+
 export default {
+  name: "Home",
   components: {
-    ImageUpload
+    HelloWorld
   }
-};
+}
 </script>
