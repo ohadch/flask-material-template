@@ -14,7 +14,7 @@ VERSION = '1.0.0'
 
 # UI
 SUPPORTED_UI_IMPLEMENTATIONS = ['vue', 'react']
-UI = 'vue'
+UI = os.environ.get("UI", None)
 assert UI in SUPPORTED_UI_IMPLEMENTATIONS, f"Currently supported UI implementations are {SUPPORTED_UI_IMPLEMENTATIONS}"
 
 # Logger
