@@ -1,154 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="292e46d2-8aaa-49ca-9603-3511ba7e5526" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.dockerignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/server.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/model-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sqlalchemy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy-no-build.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/favicon2.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/app.adb4387f.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/chunk-vendors.9295709c.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/app.0494271b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-vendors.9f7580e7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose-aws.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecs-params.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logger.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/asset-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/service-worker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/static/css/2.8271af8e.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/static/css/2.8271af8e.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/static/css/main.498d002a.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/static/css/main.498d002a.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/static/js/runtime~main.a7ca617d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/static/js/runtime~main.a7ca617d.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/static/media/roboto-latin-100.5cb7edfc.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/static/media/roboto-latin-100.7370c367.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/static/media/roboto-latin-100italic.f8b1df51.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/static/media/roboto-latin-100italic.f9e8e590.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/static/media/roboto-latin-300.b00849e0.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/static/media/roboto-latin-300.ef7c6637.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/static/media/roboto-latin-300italic.14286f3b.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/static/media/roboto-latin-300italic.4df32891.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/static/media/roboto-latin-400.479970ff.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/static/media/roboto-latin-400.60fa3c06.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/static/media/roboto-latin-400italic.51521a2a.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/static/media/roboto-latin-400italic.fe65b833.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/static/media/roboto-latin-500.020c97dc.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/static/media/roboto-latin-500.87284894.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/static/media/roboto-latin-500italic.288ad9c6.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/static/media/roboto-latin-500italic.db4a2a23.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/static/media/roboto-latin-700.2735a3a6.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/static/media/roboto-latin-700.adcde98f.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/static/media/roboto-latin-700italic.81f57861.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/static/media/roboto-latin-700italic.da0e7178.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/static/media/roboto-latin-900.9b3766ef.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/static/media/roboto-latin-900.bb1e4dc6.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/static/media/roboto-latin-900italic.28f91510.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/build/static/media/roboto-latin-900italic.ebf6d164.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/App/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/HomePage/HomePage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/HomePage/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/LoginPage/LoginPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/LoginPage/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/SignUpPage/SignUpPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/SignUpPage/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/actions/alert.actions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/actions/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/actions/user.actions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/api/classifyImage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/components/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/components/ClassificationSummary.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/components/Dropzone.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/components/ImageSummary.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/components/PrivateRoute.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/components/UploadedImages.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/components/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/constants/alert.constants.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/constants/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/constants/user.constants.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/helpers/auth-header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/helpers/history.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/helpers/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/helpers/store.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/reducers/alert.reducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/reducers/authentication.reducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/reducers/images.reducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/reducers/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/services/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/services/user.service.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/store/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-execution-assume-role.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_upload.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/.browserslistrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/babel.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/postcss.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/public/favicon2.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/api/classifyImage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/assets/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/components/ClassificationSummary.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/components/ImageUpload.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/components/ModelTraining.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/plugins/vuetify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/router.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/store.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/Home.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue.config.js" beforeDir="false" />
-    </list>
+    <list default="true" id="292e46d2-8aaa-49ca-9603-3511ba7e5526" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -332,7 +185,7 @@
       <workItem from="1569149830196" duration="341000" />
       <workItem from="1569150396650" duration="601000" />
       <workItem from="1569157551345" duration="497000" />
-      <workItem from="1569480006629" duration="1132000" />
+      <workItem from="1569480006629" duration="1840000" />
     </task>
     <task id="LOCAL-00001" summary="Adds print so no classification works again">
       <created>1568813709211</created>
@@ -488,7 +341,28 @@
       <option name="project" value="LOCAL" />
       <updated>1569480227494</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Restructures the server">
+      <created>1569481148738</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1569481148738</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Adds missing files">
+      <created>1569481232395</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1569481232395</updated>
+    </task>
+    <task id="LOCAL-00025" summary="UI is from environment variables">
+      <created>1569481369203</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1569481369203</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,7 +385,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="Adds print so no classification works again" />
     <MESSAGE value="Adds logging of the classification" />
     <MESSAGE value="Runs using app.py" />
     <MESSAGE value="Adds readme" />
@@ -534,10 +407,13 @@
     <MESSAGE value="Adds signup page" />
     <MESSAGE value="Adds logs folder" />
     <MESSAGE value="Updates the readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates the readme" />
+    <MESSAGE value="Restructures the server" />
+    <MESSAGE value="Adds missing files" />
+    <MESSAGE value="UI is from environment variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI is from environment variables" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/flask_material_template$server.coverage" NAME="server Coverage Results" MODIFIED="1569481133779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flask_material_template$server.coverage" NAME="server Coverage Results" MODIFIED="1569481821776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/server$server.coverage" NAME="server Coverage Results" MODIFIED="1568963868744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/iris_classifier$server.coverage" NAME="server Coverage Results" MODIFIED="1569150286881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

@@ -1,6 +1,20 @@
+# Flask - Material Tempalte
+
+This is a template repository for bootstrapping a template web app 
+with flask backend and vue or react frontend.
+
+### Main Features:
+- Flask Backend
+- SPA fronted
+- User authentication
+- CI
+- Deployment
+- Docker
+
 ### Stack:
 - Backed: python/flask
-- Frontend: react + redux
+- Frontend option 1: react + redux
+- Frontend option 2: vue + vuex
 - DB: postgres
 - CI: TravisCI
 - deployment: docker-compose/AWS
