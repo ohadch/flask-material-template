@@ -25,6 +25,19 @@ export const authentication = {
                     }
                 );
         },
+        signup({ dispatch, commit }, { username, password }) {
+            userService.login(username, password)
+                .then(
+                    message => {
+                        router.push('/');
+                        dispatch('alert/success', message, { root: true });
+                    },
+                    error => {
+                        commit('signUpFailure', error);
+                        dispatch('alert/error', error, { root: true });
+                    }
+                );
+        },
         logout({ commit }) {
             userService.logout();
             commit('logout');

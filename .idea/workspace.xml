@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="292e46d2-8aaa-49ca-9603-3511ba7e5526" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/logs/all.log" beforeDir="false" afterPath="$PROJECT_DIR$/server/logs/all.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/resources.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/resources.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/vue/src/_store/authentication.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/vue/src/_store/authentication.module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/vue/src/login/LoginPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/server/vue/src/login/LoginPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/vue/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/vue/src/router.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -190,7 +190,7 @@
       <workItem from="1569149830196" duration="341000" />
       <workItem from="1569150396650" duration="601000" />
       <workItem from="1569157551345" duration="497000" />
-      <workItem from="1569480006629" duration="5585000" />
+      <workItem from="1569480006629" duration="6962000" />
     </task>
     <task id="LOCAL-00001" summary="Adds print so no classification works again">
       <created>1568813709211</created>
@@ -416,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569488471262</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Handles user does not exist">
+      <created>1569488786716</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1569488786717</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,7 +446,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="Adds redux" />
     <MESSAGE value="Replaces the uploader" />
     <MESSAGE value="Sets images state" />
     <MESSAGE value="Styles the image summary card" />
@@ -464,7 +470,8 @@
     <MESSAGE value="Adds user service" />
     <MESSAGE value="Material icons are working" />
     <MESSAGE value="Styles the alerts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Styles the alerts" />
+    <MESSAGE value="Handles user does not exist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Handles user does not exist" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

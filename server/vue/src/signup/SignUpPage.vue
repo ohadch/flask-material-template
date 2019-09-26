@@ -3,7 +3,7 @@
     <v-row align="center" justify="center">
       <v-col cols="12" sm="8" md="4">
         <v-card class="elevation-12">
-          <v-form @submit.prevent="handleSubmit">
+          <v-form @submit.prevent="handleSubmit" ref="form">
             <v-toolbar color="primary" dark flat>
               <v-toolbar-title>Login form</v-toolbar-title>
               <div class="flex-grow-1"></div>
@@ -23,10 +23,22 @@
                 name="password"
                 prepend-icon="lock"
                 type="password"
+                :rules="passwordRules"
+              ></v-text-field>
+              <v-text-field
+                v-model="passwordConfirm"
+                id="passwordConfirm"
+                label="Confirm Password"
+                name="passwordConfirm"
+                prepend-icon="lock"
+                type="password"
+                :rules="passwordConfirmRules"
               ></v-text-field>
             </v-card-text>
             <v-card-actions>
-              <router-link to="/signup"><v-btn text color="primary">Don't have an accout? Sign up</v-btn></router-link>
+              <router-link to="/login">
+                <v-btn text color="primary">Already have an account? Sign In</v-btn>
+              </router-link>
               <div class="flex-grow-1"></div>
               <v-btn :loading="loggingIn" type="submit" color="primary">Login</v-btn>
             </v-card-actions>
@@ -39,11 +51,12 @@
 
 <script>
 export default {
-  name: "LoginPage",
+  name: "SignUpPage",
   data() {
     return {
       username: "",
       password: "",
+      passwordConfirm: "",
       submitted: false
     };
   },
@@ -54,6 +67,23 @@ export default {
   computed: {
     loggingIn() {
       return this.$store.state.authentication.status.loggingIn;
+    },
+    passwordRules() {
+      let rules = [];
+
+      const matchConfirm = v =>
+        v == this.passwordConfirm || "Passwords must match";
+      rules.push(matchConfirm);
+
+      return rules;
+    },
+    passwordConfirmRules() {
+      let rules = [];
+
+      const matchConfirm = v => v == this.password || "Passwords must match";
+      rules.push(matchConfirm);
+
+      return rules;
     }
   },
   methods: {
@@ -62,9 +92,16 @@ export default {
       const { username, password } = this;
       const { dispatch } = this.$store;
       if (username && password) {
-        dispatch("authentication/login", { username, password });
+        dispatch("authentication/signup", { username, password });
       }
+    },
+    validateField() {
+      this.$refs.form.validate();
     }
+  },
+  watch: {
+    password: "validateField",
+    passwordConfirm: "validateField"
   }
 };
 </script>
