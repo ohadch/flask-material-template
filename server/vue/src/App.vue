@@ -11,7 +11,7 @@
     </v-app-bar>
 
     <v-content>
-      <div v-if="alert.message" :class="`alert ${alert.type}`">{{alert.message}}</div>
+      <v-alert v-if="alert.message" :type="alert.type">{{alert.message}}</v-alert>
       <router-view />
     </v-content>
   </v-app>

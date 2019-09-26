@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="292e46d2-8aaa-49ca-9603-3511ba7e5526" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/server/vue/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/vue/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/vue/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/vue/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/vue/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/server/vue/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/vue/src/_services/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/vue/src/_services/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/logs/all.log" beforeDir="false" afterPath="$PROJECT_DIR$/server/logs/all.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/vue/src/_services/user.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/vue/src/_services/user.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/vue/src/home/HomePage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/server/vue/src/home/HomePage.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/vue/src/login/LoginPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/server/vue/src/login/LoginPage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/vue/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/vue/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/vue/src/store.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/vue/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/vue/vue.config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -196,7 +191,7 @@
       <workItem from="1569149830196" duration="341000" />
       <workItem from="1569150396650" duration="601000" />
       <workItem from="1569157551345" duration="497000" />
-      <workItem from="1569480006629" duration="4361000" />
+      <workItem from="1569480006629" duration="5326000" />
     </task>
     <task id="LOCAL-00001" summary="Adds print so no classification works again">
       <created>1568813709211</created>
@@ -408,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569484929379</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Material icons are working">
+      <created>1569487427510</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1569487427510</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,7 +433,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="Before adding files" />
     <MESSAGE value="React hooks stores images" />
     <MESSAGE value="Adds redux" />
     <MESSAGE value="Replaces the uploader" />
@@ -456,10 +457,22 @@
     <MESSAGE value="Restructures the views" />
     <MESSAGE value="Adds auth middleware to the router" />
     <MESSAGE value="Adds user service" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds user service" />
+    <MESSAGE value="Material icons are working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Material icons are working" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/server/resources.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/flask_material_template$server.coverage" NAME="server Coverage Results" MODIFIED="1569481821776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flask_material_template$server.coverage" NAME="server Coverage Results" MODIFIED="1569488169267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/server$server.coverage" NAME="server Coverage Results" MODIFIED="1568963868744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/iris_classifier$server.coverage" NAME="server Coverage Results" MODIFIED="1569150286881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

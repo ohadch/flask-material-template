@@ -1,9 +1,6 @@
-import { authHeader } from '../_helpers';
-
 export const userService = {
     login,
     logout,
-    getAll
 };
 
 function login(username, password) {
@@ -13,7 +10,7 @@ function login(username, password) {
         body: JSON.stringify({ username, password })
     };
 
-    return fetch(`/users/authenticate`, requestOptions)
+    return fetch(`/login`, requestOptions)
         .then(handleResponse)
         .then(user => {
             // login successful if there's a jwt token in the response
@@ -29,15 +26,6 @@ function login(username, password) {
 function logout() {
     // remove user from local storage to log user out
     localStorage.removeItem('user');
-}
-
-function getAll() {
-    const requestOptions = {
-        method: 'GET',
-        headers: authHeader()
-    };
-
-    return fetch(`/users`, requestOptions).then(handleResponse);
 }
 
 function handleResponse(response) {
