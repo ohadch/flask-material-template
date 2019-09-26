@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="292e46d2-8aaa-49ca-9603-3511ba7e5526" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/vue/src/_services/user.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/vue/src/_services/user.service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/vue/src/_store/authentication.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/vue/src/_store/authentication.module.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/vue/src/login/LoginPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/server/vue/src/login/LoginPage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/vue/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/vue/src/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/vue/src/signup/SignUpPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/server/vue/src/signup/SignUpPage.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -190,7 +190,7 @@
       <workItem from="1569149830196" duration="341000" />
       <workItem from="1569150396650" duration="601000" />
       <workItem from="1569157551345" duration="497000" />
-      <workItem from="1569480006629" duration="6962000" />
+      <workItem from="1569480006629" duration="7820000" />
     </task>
     <task id="LOCAL-00001" summary="Adds print so no classification works again">
       <created>1568813709211</created>
@@ -423,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569488786717</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Adds signup page">
+      <created>1569490640378</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1569490640378</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,7 +465,6 @@
     <MESSAGE value="Deletes the no-conda dockerfile" />
     <MESSAGE value="Adds mock sign up page" />
     <MESSAGE value="Updates the image name" />
-    <MESSAGE value="Adds signup page" />
     <MESSAGE value="Adds logs folder" />
     <MESSAGE value="Restructures the server" />
     <MESSAGE value="Adds missing files" />
@@ -471,18 +477,8 @@
     <MESSAGE value="Material icons are working" />
     <MESSAGE value="Styles the alerts" />
     <MESSAGE value="Handles user does not exist" />
-    <option name="LAST_COMMIT_MESSAGE" value="Handles user does not exist" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/server/resources.py</url>
-          <line>54</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Adds signup page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds signup page" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/flask_material_template$server.coverage" NAME="server Coverage Results" MODIFIED="1569488631255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

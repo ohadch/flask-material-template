@@ -1,7 +1,25 @@
 export const userService = {
     login,
     logout,
+    signup
 };
+
+function signup(username, password) {
+    const requestOptions = {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ username, password })
+    };
+
+    return fetch(`/registration`, requestOptions).then(handleResponse).then(
+        ({message, error}) => {
+            if (error)
+                throw error;
+            
+            return message;
+        }
+    )
+}
 
 function login(username, password) {
     const requestOptions = {

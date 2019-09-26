@@ -40,7 +40,7 @@
                 <v-btn text color="primary">Already have an account? Sign In</v-btn>
               </router-link>
               <div class="flex-grow-1"></div>
-              <v-btn :loading="loggingIn" type="submit" color="primary">Login</v-btn>
+              <v-btn :disabled="!valid" :loading="loggingIn" type="submit" color="primary">Register</v-btn>
             </v-card-actions>
           </v-form>
         </v-card>
@@ -57,7 +57,8 @@ export default {
       username: "",
       password: "",
       passwordConfirm: "",
-      submitted: false
+      submitted: false,
+      valid: false
     };
   },
   created() {
@@ -96,7 +97,8 @@ export default {
       }
     },
     validateField() {
-      this.$refs.form.validate();
+      let valid = this.$refs.form.validate();
+      this.valid = valid; 
     }
   },
   watch: {
