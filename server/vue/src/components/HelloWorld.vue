@@ -1,10 +1,8 @@
 <template>
   <v-card style="height:300px">
-    <v-card-content>
+    <h1>Welcome!</h1>
+    <v-card-text>
       <v-layout column>
-        <v-flex>
-          <h1>Welcome!</h1>
-        </v-flex>
         <v-flex>
           <v-container>
             <v-layout column>
@@ -13,6 +11,6 @@
           </v-container>
         </v-flex>
       </v-layout>
-    </v-card-content>
+    </v-card-text>
   </v-card>
 </template>
