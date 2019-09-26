@@ -1,28 +1,24 @@
-> Requires anaconda3
-
 ### Stack:
 - Backed: python/flask
 - Frontend: react + redux
 - DB: postgres
 - CI: TravisCI
-- model: tensorflow
 - deployment: docker-compose/AWS
 
-### Requirements:
-- [X] UI is written in react
-- [X] Server is written in python/flask
-- [X] Server side supports authentication
-- [X] Client side supports authentication
-- [X] User can upload images to be classified
-- [ ] Uploaded images are saved in s3 bucket
-- [X] The image is classified using tensorflow model
-- [X] User's classification history is saved in postgres
-- [ ] User can view his image classification history
-- [X] Add tests
+### Flask:
+- [X] Support authentication
+- [ ] Add tests
 - [X] Add TravisCI
 - [X] The app is served using docker-compose
-- [ ] Model is served using tensorflow-serving
 - [X] The app is deployed using AWS
+
+### Vue:
+- [ ] Support authentication
+- [ ] Tests
+
+### React:
+- [X] Support authentication
+- [ ] Tests
 
 ### Bugs:
 - [ ] Classification in docker container is empty string
