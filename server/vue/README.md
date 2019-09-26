@@ -1,5 +1,7 @@
 # webapp
 
+Follows the tutorial in `https://jasonwatmore.com/post/2018/07/06/vue-vuex-jwt-authentication-tutorial-example`
+
 ## Project setup
 ```
 npm install
