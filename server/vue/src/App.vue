@@ -5,7 +5,10 @@
         <span class="font-weight-light">My Website Template</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn v-if="$store.authenti">
+      <v-btn text v-if="user">
+        <span class="mr-2">Hello, {{ user.username }}</span>
+      </v-btn>
+      <v-btn outlined v-if="user" @click="$router.push('/login')">
         <span class="mr-2">Logout</span>
       </v-btn>
     </v-app-bar>
@@ -23,6 +26,9 @@ export default {
   computed: {
     alert() {
       return this.$store.state.alert;
+    },
+    user() {
+      return this.$store.state.authentication.user;
     }
   },
   watch: {

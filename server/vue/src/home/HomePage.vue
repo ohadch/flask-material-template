@@ -1,7 +1,6 @@
 <template>
   <v-layout text-center align-center justify-center mt-3>
     <v-flex xs12 sm6 md6>
-      Hello, {{ user }}!
       <HelloWorld />
     </v-flex>
   </v-layout>
@@ -15,8 +14,5 @@ export default {
   components: {
     HelloWorld
   },
-  user() {
-    return this.$store.state.authentication.user;
-  }
 };
 </script>
