@@ -9,7 +9,7 @@ module.exports = {
     assetsDir: "static",
     configureWebpack: {
         devServer: {
-            proxy: 'http://localhost:8081'
+            proxy: 'http://localhost:8000'
         },
     },
     css: {
