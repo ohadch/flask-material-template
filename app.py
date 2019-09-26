@@ -1,10 +1,12 @@
-import resources
-
 from flask import jsonify, render_template
 from flask_restful import Api
 from flask_jwt_extended import jwt_required
-from _sqlalchemy import app, db, jwt, RevokedTokenModel
-from settings import HOST, PORT, DEBUG
+
+from server import app, db, jwt
+from server.settings import HOST, PORT, DEBUG
+from server.models import RevokedTokenModel
+import server.resources as resources
+
 
 api = Api(app)
 
@@ -49,7 +51,6 @@ api.add_resource(resources.UserLogoutRefresh, '/logout/refresh')
 api.add_resource(resources.TokenRefresh, '/token/refresh')
 api.add_resource(resources.AllUsers, '/users')
 api.add_resource(resources.SecretResource, '/secret')
-api.add_resource(resources.ImageClassification, '/api/classification')
 
 if __name__ == '__main__':
     app.run(host=HOST, port=PORT, debug=DEBUG)
